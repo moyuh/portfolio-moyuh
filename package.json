@@ -2,7 +2,7 @@
   "name": "portfolio-moyuh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://moyuh.github.io/portfolio/mo-yuh",
+  "homepage": "https://moyuh.github.io/portfolio-moyuh",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
