@@ -1,9 +1,9 @@
 # React Portfolio
 Hello Thank you for your interest in my portfolio:
 
-Link to the Project Repository: [REPO](https://github.com/moyuh/react-portfolio)
+Link to the Project Repository: [REPO](https://github.com/moyuh/portfolio-moyuh)
 
-Link to deployed project: [APP](https://moyuh.github.io/react-portfolio//)
+Link to deployed project: [APP](https://moyuh.github.io/portfolio-moyuh/)
 
 <img src="assets/portfolio.png">
 
