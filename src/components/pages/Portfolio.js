@@ -9,7 +9,7 @@ import mtg from "../../assets/projects/mtg.png";
 import art from "../../assets/projects/art.png";
 import jate from "../../assets/projects/jate.png";
 import schedule from "../../assets/projects/schedule.png";
-import notes from "../../assets/projects/notes.png";
+import smokey from "../../assets/projects/smokey.png";
 
 
 function ProjectCards(props) {
@@ -34,6 +34,13 @@ function Portfolio () {
             <Container>
                 <h1 className="proj-page-head">Portfolio:</h1>
                 <Row style= {{ justifyContent: "center, paddingBottom: 5px"}}>
+                <Col md= "4" className = "proj-Card">
+                        <ProjectCards
+                        imgPath={smokey}
+                        title="Smokey's Helper:"
+                        description="A mobile friendly website to help firefighters keep track of their daily duties all in one place"
+                        githubLink="https://smokeys-helpers.herokuapp.com/" />
+                    </Col>
                     <Col md= "4" className = "proj-Card">
                         <ProjectCards
                         imgPath={wow}
@@ -68,13 +75,6 @@ function Portfolio () {
                         title="Work Day Scheduler:"
                         description="Schedule your workday using this website. Current,past, and future appointments are color coded for user ease!"
                         githubLink="https://moyuh.github.io/daily-work-scheduler/" />
-                    </Col>
-                    <Col md= "4" className = "proj-Card">
-                        <ProjectCards
-                        imgPath={notes}
-                        title="Noteworthy:"
-                        description="Keep track of the things that matter most with this note taking website!"
-                        githubLink="https://dry-badlands-33193.herokuapp.com" />
                     </Col>
                 </Row>
             </Container>

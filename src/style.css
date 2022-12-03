@@ -231,8 +231,9 @@ body {
     text-align: center;
     border: 20px solid black;
   }
+
   .mainfooter {
-    padding-top: 5%;
+    padding-bottom: 15%;
   }
   .social-icons {
     display: inline;
